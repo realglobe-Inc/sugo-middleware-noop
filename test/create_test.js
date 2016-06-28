@@ -21,7 +21,7 @@ describe('create', () => {
     assert.ok(app)
     let port = yield apemanport.find()
     server = sgServer({
-      routes: {
+      endpoints: {
         '/foo/bar': (ctx) => {
           ctx.body = 'done!!'
         }
