@@ -1,6 +1,6 @@
 {
   "name": "sugo-middleware-noop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Noop middleware for SUGOS",
   "main": "lib",
   "scripts": {
