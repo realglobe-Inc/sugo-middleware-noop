@@ -53,6 +53,34 @@ Just call next and do nothing.
 <!-- Sections Start -->
 <a name="sections"></a>
 
+<!-- Section from "doc/guides/00.Requirements.md.hbs" Start -->
+
+<a name="section-doc-guides-00-requirements-md"></a>
+Requirements
+-----
+
+<a href="https://nodejs.org">
+  <img src="https://realglobe-inc.github.io/sugos-assets/images/nodejs-banner.png"
+       alt="Node.js"
+       height=""
+       style="height:px"
+  /></a>
+<a href="https://docs.npmjs.com/">
+  <img src="https://realglobe-inc.github.io/sugos-assets/images/npm-banner.png"
+       alt="NPM"
+       height=""
+       style="height:px"
+  /></a>
+
++ [Node.js ( >=6 )][node_download_url]
++ [npm ( >=3 )][npm_url]
+
+[node_download_url]: https://nodejs.org/en/download/
+[npm_url]: https://docs.npmjs.com/
+
+
+<!-- Section from "doc/guides/00.Requirements.md.hbs" End -->
+
 <!-- Section from "doc/guides/01.Installation.md.hbs" Start -->
 
 <a name="section-doc-guides-01-installation-md"></a>
@@ -87,7 +115,7 @@ const server = sgServer({
       // Options
     })
   ],
-  routes: {
+  endpoints: {
     /* ... */
   }
 })
